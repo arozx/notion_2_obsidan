@@ -3,9 +3,13 @@
 For those considering switching from [Notion](https://www.notion.so/) to [Obsidian](https://obsidian.md/), here is a Python 3 script that converts your Notion export into an Obsidian friendly format. 
 
 When you run the N2O.py script, it will:
-1. Launch an Open-File dialogue where you'll navigate to your Notion-Export.zip file
+1. Require you to launch from command line with command 
+```shell
+python N2O.py -i notion-export.zip
+```
 2. Convert all Internal Links in your Notion pages to an Obsidian friendly markdown format
 3. Repackages all the files into a new zip archive that is Obsidian vault compatible
+4. Output the zip file to the output directory
 
 The script will leave your orginal Notion archive unmodified. 
 
