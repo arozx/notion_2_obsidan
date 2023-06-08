@@ -31,11 +31,7 @@ If you're interested, the full sequence of modifications needed to make your Not
 
 # Supporting the Work
 
-I’m happy to offer you this script and the conversion methodology. If you're able and inclined, a donation for the convenience and time savings would be genuinely appreciated. There's a couple donation links at the bottom of this page.
-
-I estimate that anyone using the [Methodology.md](METHODOLOGY.md) can convert their Notion export in a day or less of work. Without this guide, it would likely take several days of troubleshooting. If you’re a confident programmer, it may take you just a couple hours with the guide. I encourage everyone to go through the process. It is satisfying.
-
-However, if your time is worth more spent elsewhere. Feel free to use the code and switch to Obsidian in mere seconds! 
+Credit to: [visual current](https://github.com/visualcurrent)
 
 # Export Your Full Notion Database
 If you haven't already, you'll need to export your content from Notion.
@@ -64,13 +60,3 @@ Time to import everything into Obsidian
 3.  Select **Open folder as vault**  
 ![open vault](media/vault.png)
 4.  Use the Select Folder window to navigate to the directory with your newly converted files
-  
-Enjoy the shift to Obsidian!
-
-# Donation Links
-If the instructions or code have been useful for you, please consider the time you've saved and treat me to half a lunch or so :)  My hole-in-the-bucket Covid-19 era income would greatly appreciate it.
-
-Here are some donation links for me:
-* PayPal: https://www.paypal.me/GabrielKrause
-* Venmo: @Gabriel-Krause
-* Etherium: 0xeAE10E05427845aE816E61605eCC779A2d5e59A4
