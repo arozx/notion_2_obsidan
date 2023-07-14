@@ -10,6 +10,7 @@ from os import path
 from re import compile, search
 from csv import DictReader
 from pathlib import Path
+from io import StringIO
 
 
 def str_slash_char_remove(string):
@@ -92,8 +93,8 @@ def ObsIndex(contents):
 def N2Ocsv(csvFile):
     
     # Convert csv to dictionary object
-    reader = DictReader(TextIOWrapper(csvFile, "utf-8-sig"), delimiter=',', quotechar='"')
-   
+    reader = DictReader(StringIO(csvFile.read().decode('utf-8-sig')), delimiter=',', quotechar='"')
+
     dictionry = {}
     for row in reader: # I don't know how this works but it does what I want
         for column, value in row.items():
